@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector Mixed</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        .title, h2{
+            background-color: blue;
+            padding: 10px;
+            color: white;
+        }
+        .red{
+            background-color: red;
+        }
+        .yellow{
+            background-color: yellow;
+        }
+        input{
+            padding: 10px;
+            margin: 0px 10px;
+            background-color: cadetblue;
+            border: none;
+        }
+        input[type='password']{
+            color: red;
+        }
+        span{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h2>Attention.....<span>!</span></h2>
+    <p class="title">those with color ret are out. those with yellow color are pending and those with white white color are ok</p>
+    <p class="red">My First Website</p>
+    <p>My second Website</p>
+    <p class="red">My Third Website</p>
+    <p class="red">My Four Website</p>
+    <p>My Five Website</p>
+    <p class="yellow">My Seven Website</p>
+    <form action="">
+        <input type="text" placeholder="name">
+        <input type="password" placeholder="password">
+    </form>
+</body>
+</html>
